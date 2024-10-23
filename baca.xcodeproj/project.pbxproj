@@ -195,6 +195,9 @@
 			);
 			mainGroup = 24A526AA2CA1433900C93F90;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				24FDB6A12CA5C8DA00D5C928 /* XCRemoteSwiftPackageReference "swift-toolkit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 24A526B42CA1433900C93F90 /* Products */;
 			projectDirPath = "";
@@ -552,6 +555,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		24FDB6A12CA5C8DA00D5C928 /* XCRemoteSwiftPackageReference "swift-toolkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/readium/swift-toolkit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 24A526AB2CA1433900C93F90 /* Project object */;
 }

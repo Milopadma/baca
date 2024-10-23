@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "swift-lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:baca}/baca",
+      "name": "Debug baca (baca)",
+      "program": "${workspaceFolder:baca}/baca/.build/debug/baca",
+      "preLaunchTask": "swift: Build Debug baca (baca)"
+    },
+    {
+      "type": "swift-lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:baca}/baca",
+      "name": "Release baca (baca)",
+      "program": "${workspaceFolder:baca}/baca/.build/release/baca",
+      "preLaunchTask": "swift: Build Release baca (baca)"
+    }
+  ]
+}
